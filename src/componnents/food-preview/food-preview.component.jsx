@@ -16,8 +16,8 @@ const FoodPreview = ({ title, items }) => (
     <div className="preview">
       {items
         .filter((item, idx) => idx < 4)
-        .map(({ id, ...otherItemprops }) => (
-          <FoodItem key={id} {...otherItemprops} />
+        .map((item) => (
+          <FoodItem key={item.id} item={item} />
         ))}
     </div>
   </div>
