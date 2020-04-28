@@ -17,18 +17,20 @@ import FoodItem from "../../componnents/food-item/food-item.component";
 import { selectCategory } from "../../redux/food/food.selectors";
 
 const CategoryPage = ({ category }) => {
-  const { title, items } = category;
+  if (category != null) {
+    const { title, items } = category;
 
-  return (
-    <div className="collection-page">
-      <h2 className="title"> {title}</h2>
-      <div className="items">
-        {items.map((item) => (
-          <FoodItem key={item.id} item={item} />
-        ))}
+    return (
+      <div className="collection-page">
+        <h2 className="title"> {title}</h2>
+        <div className="items">
+          {items.map((item) => (
+            <FoodItem key={item.id} item={item} />
+          ))}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 };
 
 const mapStateToProps = (state, ownProps) => ({

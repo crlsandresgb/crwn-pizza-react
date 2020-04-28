@@ -31,9 +31,7 @@ const Header = ({ currentUser, hidden }) => (
       <Link className="option" to="/shop">
         BEST SELLERS
       </Link>
-      <Link className="option" to="contacts">
-        CONTACT
-      </Link>
+
       {currentUser ? (
         <div className="option" onClick={() => auth.signOut()}>
           SIGN OUT
