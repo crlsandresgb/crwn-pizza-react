@@ -9,41 +9,41 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "hats",
+      title: "pizza",
       imageUrl:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
       id: 1,
-      linkUrl: "hats",
+      linkUrl: "shop/pizza",
     },
     {
-      title: "jackets",
+      title: "pasta",
       imageUrl:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
       id: 2,
-      linkUrl: "",
+      linkUrl: "shop/pasta",
     },
     {
-      title: "sneakers",
+      title: "panini",
       imageUrl:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
       id: 3,
-      linkUrl: "",
+      linkUrl: "shop/panini",
     },
     {
-      title: "womens",
+      title: "soup",
       imageUrl:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
       size: "large",
       id: 4,
-      linkUrl: "",
+      linkUrl: "shop/soup",
     },
     {
-      title: "mens",
+      title: "fish",
       imageUrl:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
       size: "large",
       id: 5,
-      linkUrl: "",
+      linkUrl: "shop/fish",
     },
   ],
 };

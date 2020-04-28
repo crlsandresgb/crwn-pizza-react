@@ -1,8 +1,8 @@
-const MENU_DATA = [
-  {
+const MENU_DATA = {
+  pizza: {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Pizza",
+    routeName: "pizza",
     items: [
       {
         id: 1,
@@ -69,10 +69,10 @@ const MENU_DATA = [
       },
     ],
   },
-  {
+  pasta: {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Pasta",
+    routeName: "pasta",
     items: [
       {
         id: 10,
@@ -132,10 +132,10 @@ const MENU_DATA = [
       },
     ],
   },
-  {
+  panini: {
     id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    title: "Panini",
+    routeName: "panini",
     items: [
       {
         id: 18,
@@ -174,10 +174,10 @@ const MENU_DATA = [
       },
     ],
   },
-  {
+  soup: {
     id: 4,
-    title: "Womens",
-    routeName: "womens",
+    title: "Soup",
+    routeName: "soup",
     items: [
       {
         id: 23,
@@ -230,10 +230,10 @@ const MENU_DATA = [
       },
     ],
   },
-  {
+  fish: {
     id: 5,
-    title: "Mens",
-    routeName: "mens",
+    title: "Fish",
+    routeName: "fish",
     items: [
       {
         id: 30,
@@ -279,6 +279,6 @@ const MENU_DATA = [
       },
     ],
   },
-];
+};
 
 export default MENU_DATA;

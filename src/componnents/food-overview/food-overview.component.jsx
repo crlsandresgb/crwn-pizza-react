@@ -16,7 +16,7 @@ import FoodPreview from "../food-preview/food-preview.component";
  * redux
  */
 
-import { selectFoodItems } from "../../redux/food/food.selectors";
+import { selectFoodForPreview } from "../../redux/food/food.selectors";
 
 const FoodOverview = ({ food }) => (
   <div className="collections-overview">
@@ -27,7 +27,7 @@ const FoodOverview = ({ food }) => (
 );
 
 const mapStateToProps = createStructuredSelector({
-  food: selectFoodItems,
+  food: selectFoodForPreview,
 });
 
 export default connect(mapStateToProps)(FoodOverview);

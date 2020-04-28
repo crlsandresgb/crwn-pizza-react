@@ -28,7 +28,7 @@ const Header = ({ currentUser, hidden }) => (
       <Logo className="logo" />
     </Link>
     <div className="options">
-      <Link className="option" to="best-sellers">
+      <Link className="option" to="/shop">
         BEST SELLERS
       </Link>
       <Link className="option" to="contacts">
