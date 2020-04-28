@@ -30,6 +30,12 @@ const CategoryPage = ({ category }) => {
         </div>
       </div>
     );
+  } else {
+    return (
+      <div className="collection-page">
+        <h2 className="title"> PLEASE WAIT</h2>
+      </div>
+    );
   }
 };
 

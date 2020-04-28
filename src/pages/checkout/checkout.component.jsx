@@ -38,7 +38,7 @@ class CheckoutPage extends React.Component {
   componentDidMount() {
     console.log(this.props);
     const { total, cartItems } = this.props;
-    this.setState({ total: total, cartItems: cartItems });
+    this.setState({ total: total + 10, cartItems: cartItems });
   }
 
   handleSubmit = async (event) => {
